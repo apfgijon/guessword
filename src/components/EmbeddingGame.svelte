@@ -61,7 +61,7 @@
   </script>
   
   <main>
-    {word1}  
+    {word1}  {word2}
     <Input
     label="Guess the word"
     bind:value={word2}
