@@ -1,0 +1,27 @@
+---
+import '@fontsource-variable/open-sans';
+import '@fontsource/material-icons';
+import EmbeddingGame from '../components/EmbeddingGame.svelte';
+---
+
+<html>
+  <head>
+    <title>Guess the word!</title>
+  </head>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      font-family: 'Open Sans Variable', sans-serif;
+      color: #fff;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Guess the word!</h1>
+    <EmbeddingGame client:load />
+  </body>
+</html>
