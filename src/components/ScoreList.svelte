@@ -139,34 +139,18 @@
     font-size: 1.1rem;
     font-weight: 600;
     margin: 0;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     color: var(--text-color);
   }
 
   .score {
     font-size: 0.95rem;
     font-weight: 500;
-    margin-top: 8px;
+    margin:0;
     color: var(--text-color);
   }
 
-  @media (max-width: 600px) {
-    .list {
-      padding: 15px;
-    }
 
-    .list-item {
-      padding: 15px 20px;
-    }
-
-    .text {
-      font-size: 1rem;
-    }
-
-    .score {
-      font-size: 0.85rem;
-    }
-  }
 </style>
 
 <ul class="list">

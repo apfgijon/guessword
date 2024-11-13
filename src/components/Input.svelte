@@ -23,6 +23,9 @@
     }
   
     function handleKeyPress(event) {
+      if (event.key === " ") {
+      event.preventDefault(); // Prevent space character from being entered
+    }
       if (event.key === 'Enter') {
         handleSend();
       }
