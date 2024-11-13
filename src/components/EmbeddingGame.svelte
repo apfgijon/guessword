@@ -84,7 +84,7 @@
         score: similarity *100
       };
       results = results.sort((a, b) => b.score - a.score)
-      
+      word2= "";
       loading = false;
       
     }
